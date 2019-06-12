@@ -11,8 +11,16 @@ module.exports = function(app){
     res.send(`Main menu`);
   });
 
-  app.get('/history', function(req, res){
+  app.get('/progress', function(req, res){
     res.send(`View previous workouts`);
+  });
+
+  app.get('/goals', function(req, res){
+    res.send(`View your goals`);
+  });
+
+  app.get('/browse', function(req, res){
+    res.send(`Browse`);
   });
 
   app.get('/session', function(req, res){
