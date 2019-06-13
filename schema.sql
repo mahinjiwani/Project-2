@@ -16,6 +16,5 @@ CREATE TABLE exercises(
   name VARCHAR(100) NOT NULL,
   description VARCHAR(255) NOT NULL,
   type VARCHAR(255) NOT NULL,
-  link VARCHAR(255),
   PRIMARY KEY(id)
 );
