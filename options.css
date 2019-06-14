@@ -1,0 +1,82 @@
+body,html{
+    height:100%;
+}
+
+
+.nav-wrapper-black{
+    background-color: black!important;
+    font-family: 'Lato', sans-serif;
+  }
+
+
+
+.lower {
+    background-color: pink;
+    max-width: 170px;
+    position: relative;
+    height: 150px;
+    border: solid black 5px;
+    border-radius: 40px;
+    text-align: center;
+    left: 5px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.79);
+}
+
+.row {
+    position: relative;
+}
+
+.cardio{
+    background-color: pink;
+    max-width: 365px;
+    position: relative;
+    left: 5px;
+    border: 5px solid black;
+    border-radius: 40px;
+    height: 150px;
+    top: 10px;
+    background-image: linear-gradient( rgba(255, 226, 226, 0.5),
+    rgba(255, 255, 255, 0.58) 
+    ),url("./photos/cardioBG.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'B612 Mono', monospace;
+}
+
+
+
+.upper{
+    background-color: pink;
+    max-width: 170px;
+    position: relative;
+    top: 150px;
+    height: 150px;
+    border: solid black 5px;
+    border-radius: 40px;
+    text-align: center;
+    left: 200px;
+    right: 20px;
+}
+
+.tabs{
+    position: relative;
+    top:240px;
+    width: 100% !important;
+    background-color: black !important;
+    border-radius: 10px;
+    border-left: thick solid white !important;
+    border-right: thick solid white !important;
+    right: 5px;
+    left: .09px;
+  }
+
+  .button{
+      position: relative;
+      top: 50px;
+  }
+
