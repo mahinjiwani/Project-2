@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">  
+      <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel = "stylesheet" href = "main.css">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:900i&display=swap" rel="stylesheet">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+        <section class="wrapper">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </section>
+   
+    
+        <nav class = "nav-wrapper-black">
+            <div class = "container">
+                <a href= "#" class = "brand-logo">Werk It</a>
+                <a href= "#" class = "sidenav-trigger" data-target="mobile-links">
+                    <i class = "material-icons">menu</i>
+                </a>
+                
+                <ul class = "right hide-on-med-and-down">
+                    <li><a href="#">Ex1</a></li>
+                    <li><a href="#">Ex2</a></li>
+                    <li><a href="#">Ex3</a></li>
+                    <li><a href="#">Ex4</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class = "clock">
+                <span id = "hour">02:</span>
+                <span id = "minute">30:</span>
+                <span id = "second">23:</span>
+            </div>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/33d75n84d39/atlanta/" data-label_1="ATLANTA" data-label_2="WEATHER" data-theme="original" data-basecolor="rgba(0, 0, 0, 0.5)" >ATLANTA WEATHER</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+
+        <div class = "dailyWorkout">Daily Workout</div>
+
+        <div class = "startBtn">
+            <a class="waves-effect waves-light btn-small"><i class="material-icons left">play_circle_filled</i>Begin</a>
+        </div>
+
+        <div class = "container">
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">directions_run</i></a>
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">accessibility</i></a>
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">fitness_center</i></a>
+        </div>
+
+        <div class = "container">
+            <p class = "dailyRoutine">Warm-Up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stretch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work-Out</p>
+        </div>
+      
+
+        <ul class = "sidenav" id="mobile-links">
+            <li><a href="#">Ex1</a></li>
+            <li><a href="#">Ex1</a></li>
+            <li><a href="#">Ex1</a></li>
+        </ul>
+
+
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s4"><a href="#test4">Home</a></li>
+                    <li class="tab col s4"><a href="#test4">Profile</a></li>
+                    <li class="tab col s4"><a href="#test4">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <script src = "clock.js" charset="utf-8"></script>
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        })
+        </script>
+    </body>
+</html>
