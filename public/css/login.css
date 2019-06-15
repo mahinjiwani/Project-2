@@ -11,7 +11,7 @@
 
 .row{
     position: center;
-    
+
 
 }
 
@@ -21,13 +21,13 @@ body{
     background-image: linear-gradient(
         rgba(255, 2, 2, 0.35),
         rgba(0, 0, 0, 0.45)
-    ), url("./photos/loginBG.jpg");
+    ), url("/images/loginBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     height: 100%;
     background-color: black;
-    
+
 
 }
 
@@ -72,4 +72,3 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
