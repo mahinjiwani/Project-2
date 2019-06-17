@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+body{
+    height: 100%;
+    background-image: linear-gradient( rgba(150, 0, 0, 0.5),
+    rgba(72, 74, 74, 0.45)
+    ), url("../images/workoutBG.jpg");
+    background-size: cover;
+}
+
+html{
+    height: 100%;
+}
+
+.nav-wrapper-black{
+    background-color: black!important;
+    font-family: 'Lato', sans-serif;
+  }
+
+.slideShow {
+    background-image: url("../images/warmUp.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+    box-shadow: crimson;
+
+}
+
+.warmUp {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    border: solid black 5px;
+    border-radius: 20px;
+    background-image: url(../images/workoutBtnBg.jpg);
+    font-weight: bolder;
+}
+
+.stretch {
+    position: relative;
+    top: 20px;
+    background-color: white;
+    height: 100px;
+    border: solid black 5px;
+    border-radius: 20px;
+    background-image: url(../images/workoutBtnBg.jpg);
+    font-weight: bolder;
+    
+}
+
+
+.workOut {
+    position: relative;
+    top: 10px;
+    background-color: black;
+    height: 100px;
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 0 !important;
+    background-image: url(../images/workoutBtnBg.jpg);
+    font-weight: bolder;
+}
+.warmupTxt{
+    position: relative;
+    top: 30px;
+    left: 50px !important;
+    color: black;
+}
+
+.warmUpCheckBox {
+    position: relative;
+    top: 156px;
+    z-index: 1;
+    left: 30px;
+    margin: 0;
+    width: 100% !important;
+}
+
+.wrapper{
+    position: relative;
+    top: 88px;
+    left: 130px;
+    border: solid black 5px;
+    width: 140px;
+    background-color: brown;
+    border-radius: 20px;
+    height: 45px;
+}
+
+.wrapper .cardio{
+    position: relative;
+    text-align: center;
+    left: 47px;
+    top: 8px;
+}
+
+.stretchCheckBox {
+    position: relative;
+    top: 235px;
+    z-index: 1;
+    left: 30px;
+    margin: 0 !important;
+    width: 50px !important;
+    padding: 0 !important;
+}
+
+.stretchTxt{
+    position: relative;
+    top: 30px;
+    left: 50px !important;
+}
+
+.workoutTxt{
+    position: relative;
+    top: 30px;
+    left: 50px !important;
+}
+
+.workoutCheckBox{
+    position: relative;
+    top: 315px;
+    z-index: 1;
+    margin: 0;
+    left: 30px !important;
+    width: 100% !important;
+
+}
+
+.startBtn {
+    border: solid brown 3px;
+    position: relative;
+    top: 110px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: pink;
+    left: 140px;
+    font-weight: bolder;
+}
+
+.btnTxt{
+    position: relative;
+    left: 28px;
+    top: 5px;
+    font-weight: bolder;
+
+}
+
+
+

@@ -12,7 +12,7 @@ body{
   background: #673ab7;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5),
   rgba(71, 82, 86, 0.45)
-  ), url("/images/mainpageBG.jpg");
+  ), url("../images/mainpageBG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
