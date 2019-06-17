@@ -1,23 +1,21 @@
 // Declare dependencies
-const mysql = require("mysql");
+const Sequelize = require("sequelize");
 
 // Set up our connection information
-const connection = mysql.createConnection({
-  port: 3306,
+const connection = new Sequelize("sweat_itDB", "root", "docker", {
   host: "localhost",
-  user: "root",
-  password: "docker",
-  database: "sweat_itDB"
+  port: 3306,
+  dialect: "mysql",
+  pool: {
+    max: 5,
+    min: 0,
+    idle: 10000
+  }
 });
 
-// Connect to the database
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
-  console.log("connected as id " + connection.threadId);
-});
+connection.sync().then(function(){
+  console.log('DB connected.');
+})
 
 // Export connection
 module.exports = connection;
