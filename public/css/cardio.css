@@ -21,7 +21,7 @@ html{
   }
 
 .slideShow {
-    background-image: url(../images/cardioBG.jpg);
+    background-image: url("../images/cardioBG.jpg");
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ html{
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url(../images/workoutBtnBg.jpg);
+    background-image: url("../images/workoutBtnBg.jpg");
     font-weight: bolder;
 }
 
@@ -48,9 +48,9 @@ html{
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url(../images/workoutBtnBg.jpg);
+    background-image: url("../images/workoutBtnBg.jpg");
     font-weight: bolder;
-    
+
 }
 
 
@@ -62,7 +62,7 @@ html{
     border: solid black 5px;
     border-radius: 20px;
     margin: 0 !important;
-    background-image: url(../images/workoutBtnBg.jpg);
+    background-image: url("../images/workoutBtnBg.jpg");
     font-weight: bolder;
 }
 .warmupTxt{

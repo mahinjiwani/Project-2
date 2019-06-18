@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-    
+
 
 body{
     height: 100%;
@@ -29,6 +29,7 @@ html{
     position: relative;
     top: 50px;
     box-shadow: crimson;
+    
 
 }
 
@@ -38,7 +39,7 @@ html{
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url(../images/workoutBtnBg.jpg);
+    background-image: url("../images/workoutBtnBg.jpg");
     font-weight: bolder;
     width: 375px;
     right: 0px;
@@ -51,11 +52,11 @@ html{
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url(../images/workoutBtnBg.jpg);
+    background-image: url("../images/workoutBtnBg.jpg");
     font-weight: bolder;
     width: 375px;
     right: 0px;
-    
+
 }
 
 
@@ -165,3 +166,5 @@ ul{
     bottom: 15px;
     width: 120px;
 }
+
+
