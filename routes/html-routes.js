@@ -9,7 +9,11 @@ module.exports = function(app){
     res.sendFile(path.join(__dirname, "../public/login.html"));
   });
 
-  app.get('/' || '/main', function(req, res){
+  app.get('/', function(req, res){
+    res.sendFile(path.join(__dirname, "../public/main.html"));
+  });
+
+  app.get('/main', function(req, res){
     res.sendFile(path.join(__dirname, "../public/main.html"));
   });
 
@@ -18,15 +22,15 @@ module.exports = function(app){
   });
 
   app.get('/lower', function(req, res){
-    res.sendFile("../public/lower.html");
+    res.sendFile(path.join(__dirname, "../public/lower.html"));
   });
 
   app.get('/cardio', function(req, res){
-    res.sendFile("../public/cardio.html");
+    res.sendFile(path.join(__dirname, "../public/cardio.html"));
   });
 
   app.get('/upper', function(req, res){
-    res.sendFile("../public/upper.html");
+    res.sendFile(path.join(__dirname, "../public/upper.html"));
   });
 
 }
