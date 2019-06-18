@@ -33,7 +33,7 @@ html{
 
 .warmUp {
     position: relative;
-    top: 30px;
+    bottom: 40px;
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
@@ -43,7 +43,7 @@ html{
 
 .stretch {
     position: relative;
-    top: 20px;
+    bottom: 40px;
     background-color: white;
     height: 100px;
     border: solid black 5px;
@@ -56,7 +56,7 @@ html{
 
 .workOut {
     position: relative;
-    top: 10px;
+    bottom: 40px;
     background-color: black;
     height: 100px;
     border: solid black 5px;
@@ -75,7 +75,7 @@ html{
 
 .warmUpCheckBox {
     position: relative;
-    top: 156px;
+    top: 85px;
     z-index: 1;
     left: 30px;
     margin: 0;
@@ -102,7 +102,7 @@ html{
 
 .stretchCheckBox {
     position: relative;
-    top: 235px;
+    top: 175px;
     z-index: 1;
     left: 30px;
     margin: 0 !important;
@@ -126,7 +126,7 @@ html{
 
 .workoutCheckBox{
     position: relative;
-    top: 315px;
+    top: 264px;
     z-index: 1;
     margin: 0;
     left: 30px !important;

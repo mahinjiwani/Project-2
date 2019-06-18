@@ -1,7 +1,7 @@
 *{
   margin:0px;
   padding:0px;
-  border:
+  
 }
 
 body,html{
@@ -83,11 +83,12 @@ html {
 .startBtn{
   position: relative;
   top: 300px;
-  left: 135px;
+  left: 160px;
   font-family: 'Varela Round', sans-serif;
   color: rgba(60, 111, 130, 0.45) !important;
   width: 100px;
   margin: 0 !important;
+  z-index: 1;
 }
 
 .tabs{
@@ -140,6 +141,10 @@ html {
   left: 80px;
   bottom: 3px;
 }
+
+
+
+
 
 
 #stars {
