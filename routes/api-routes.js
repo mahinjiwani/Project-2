@@ -1,6 +1,6 @@
 // Declare dependencies
 const Exercises = require('../models/exercises.js');
-const Users = require('../models/Users.js');
+const Users = require('../models/users.js');
 
 module.exports = function(app){
   app.get("/api/exercises", function(req, res) {
