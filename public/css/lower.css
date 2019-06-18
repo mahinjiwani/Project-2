@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body{
     height: 100%;
     background-image: linear-gradient( rgba(171, 171, 171, 0.5),
@@ -22,7 +21,7 @@ html{
   }
 
 .slideShow {
-    background-image: url("../images/upperBodyBg.jpeg");
+    background-image: url("../images/warmUp.jpg");
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,28 +33,24 @@ html{
 
 .warmUp {
     position: relative;
-    top: 10px;
+    top: 30px;
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url("../images/workoutBtnBg.jpg");
+    background-image: url(../images/workoutBtnBg.jpg);
     font-weight: bolder;
-    width: 375px;
-    right: 0px;
 }
 
 .stretch {
     position: relative;
-    top: 10px;
+    top: 20px;
     background-color: white;
     height: 100px;
     border: solid black 5px;
     border-radius: 20px;
-    background-image: url("../images/workoutBtnBg.jpg");
+    background-image: url(../images/workoutBtnBg.jpg);
     font-weight: bolder;
-    width: 375px;
-    right: 0px;
-
+    
 }
 
 
@@ -69,7 +64,6 @@ html{
     margin: 0 !important;
     background-image: url(../images/workoutBtnBg.jpg);
     font-weight: bolder;
-    width: 375px;
 }
 .warmupTxt{
     position: relative;
@@ -81,7 +75,7 @@ html{
 
 .warmUpCheckBox {
     position: relative;
-    top: 135px;
+    top: 156px;
     z-index: 1;
     left: 30px;
     margin: 0;
@@ -108,7 +102,7 @@ html{
 
 .stretchCheckBox {
     position: relative;
-    top: 225px;
+    top: 235px;
     z-index: 1;
     left: 30px;
     margin: 0 !important;
